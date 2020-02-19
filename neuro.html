@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Neuroscience</title>
+  <link rel="stylesheet" href="./resources/style.css">
+  <link rel='stylesheet' href='./resources/ds_style.css'>
+
+</head>
+<body>
+  <!-- partial:index.partial.html -->
+  <body>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Home</a>
+      <a href="ds.html">Data Science</a>
+      <a href="neuro.html">Neuroscience</a>
+    </div>
+
+    <div id='main'>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+      <div class="center-text">
+        <div class="section-1">
+          <h1>Neuroscience Portfolio</h1>
+          <p>A gallery of neuroscience research projects.</p>
+        </div>
+        <hr>
+        <ul class="c-links" id="demo">
+          <li class="btn--corners">
+            <a href="https://github.com/danielkentwood/NERF">Predictive visual remapping in prefrontal cortex depends on saccadic intention</a>
+            <p>In primates, the frontal eye field (FEF) is an area in the prefrontal cortex that is involved in planning and executing eye movements. Many of the neurons in this area also respond to visual stimulation. Each visual FEF cell has a receptive field--i.e., a part of space to which the cell becomes maximally active when a visual event happens. For decades, scientists assumed that these receptive fields were simply locked to the retina, so that they would just move as soon as the eye moved. Recently, studies have demonstrated that these receptive fields jump toward their future location before the eye starts moving, as if they "know" in advance where the eye movement will land. There is disagreement about how this "remapping of the receptive fields occurs. This study aims to understand how the ultimate goal of the eye movement influences how the remapping process unfolds.</p>
+          </li>
+          <li class="btn--corners">
+            <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/ejn.12976">Visually evoked activity in chest muscles resets the phase of physiological tremor</a>
+            <p>Lorem ipsum</p>
+          </li>
+          <li class="btn--corners">
+            <a href="https://www.sciencedirect.com/science/article/pii/S0010945216301940">Sensitivity to biomechanical limitations during postural decision-making depends on the integrity of posterior superior parietal cortex</a>
+            <p>Lorem ipsum</p>
+          </li>
+          <li class="btn--corners">
+            <a href="https://jov.arvojournals.org/article.aspx?articleid=2121022">Visual salience dominates early visuomotor competition in reaching behavior</a>
+            <p>Lorem ipsum</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+      }
+    </script>
+  </body>
+  <!-- partial -->
+  
+</body>
+</html>

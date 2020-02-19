@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Data Science</title>
+  <link rel="stylesheet" href="./resources/style.css">
+  <link rel='stylesheet' href='./resources/ds_style.css'>
+
+</head>
+<body>
+  <!-- partial:index.partial.html -->
+  <body>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Home</a>
+      <a href="ds.html">Data Science</a>
+      <a href="neuro.html">Neuroscience</a>
+    </div>
+
+    <div id='main'>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+      <div class="center-text">
+        <div class="section-1">
+          <h1>Data Science Portfolio</h1>
+          <p>A collection of recent projects.</p>
+        </div>
+        <hr>
+        <ul class="c-links" id="demo">
+          <li class="btn--corners">
+            <a href="https://github.com/danielkentwood/SearchMoDB">The language of faith</a>
+            <p>This started off as an exploration of my Mormon roots. It is currently an app that provides N-Gram frequency search functionality for a corpus of sermons and lessons from LDS church leadership. It covers from the mid 1800s to today. I have plans to expand into other religions/traditions.</p>
+          </li>
+          <li class="btn--corners">
+            <a href="https://github.com/danielkentwood/Countdown">Countdown</a>
+            <p>This is currently an EDA of the mortality dataset at NBER. The short-term goal is to provide a clean interface to the dataset, allowing users to input demographic features (e.g., race, education, sex, marital status, etc.), and then see when someone with those demographic features is most likely to die.</p>
+          </li>
+          <li class="btn--corners">
+            <a href="https://github.com/danielkentwood/NERF">NERF: Nonlinear Estimation of Receptive Fields</a>
+            <p>This is currently a repository of code for preprocessing and analysis of behavioral and neural timeseries data. Beyond I/O, cleaning, and basic plotting functions, it specifically provides tools for inferring the spatiotemporal preferences of visually responsive neurons.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+      }
+    </script>
+  </body>
+  <!-- partial -->
+  
+</body>
+</html>
