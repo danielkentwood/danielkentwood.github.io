@@ -112,12 +112,12 @@ html {
   text-decoration: none;
 }
 /* dropdown menu */
-/* credit to https://codepen.io/jstn/pen/zuDst for the dynamic underline */
+/* modified from https://codepen.io/jstn/pen/zuDst for the dynamic underline */
 .dropdown {
   float: left;
   overflow: hidden;
 }
-.dropdown .dropbtn {
+.dropbtn {
   font-size: 16px;
   border: none;
   outline: none;
@@ -128,28 +128,8 @@ html {
   margin: 0;
   text-transform: uppercase;
   text-decoration: none;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.10em;
   position: relative;
-}
-.dropdown .dropbtn:after {
-  background: none repeat scroll 0 0 transparent;
-  bottom: 0;
-  content: "";
-  display: block;
-  height: 1px;
-  left: 50%;
-  position: absolute;
-  background: #fff;
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  width: 0;
-}
-.dropdown .dropbtn:hover {
-  color: white;
-}
-.dropdown .dropbtn:hover:after {
-  width: 100%;
-  left: 0;
-  color: white;
 }
 .dropdown-content {
   display: none;
@@ -175,3 +155,32 @@ html {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+.dropbtn:after {
+  /* background: none repeat scroll 0 0 transparent; */
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.dropbtn:hover {
+  color: white;
+}
+.dropdown:hover .dropbtn {
+  color: white;
+}
+.dropbtn:hover:after {
+  width: 100%;
+  left: 0;
+  color: white;
+}
+.dropdown:hover .dropbtn:after {
+  width: 100%;
+  left: 0;
+  color: white;
+}
+
