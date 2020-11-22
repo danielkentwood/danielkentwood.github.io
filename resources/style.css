@@ -6,19 +6,39 @@ h1,
 .white {
   color: #fff;
 }
+h3,
+.white {
+  color: #fff;
+}
 body,
 html {
   margin: 0;
   font-family: "Roboto", sans-serif;
-  background: #101214;
-  color: #9b9ea5;
+  background: #050505;
+  color: #b5b9c2;
 }
 
+/* moving dot brain settings */
+canvas {
+  margin: auto;
+  position: relative;
+  display: flex;
+  text-align: left;
+  background: #050505;
+  padding-top: -40px;
+  padding-left: 260px;
+  padding-right: 0px; 
+  margin-bottom: 150px;
+  transform: scaleX(-1);
+
+}
+
+/* center panel settings */
 .center-text {
   margin: auto;
   width: 550px;
   padding-top: 30px;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
   text-align: left;
 }
 @media screen and (max-width: 650px) {
@@ -35,21 +55,21 @@ html {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: rgb(233, 233, 233);
     overflow-x: hidden;
     transition: 0.2s;
     padding-top: 60px;
 }
 .sidenav a {
-    padding: 8px 8px 8px 32px;
+    padding: 4px 4px 4px 32px;
     text-decoration: none;
-    font-size: 15px;
-    color: #818181;
+    font-size: 17px;
+    color: #3b3b3b;
     display: block;
-    transition: 0.2s;
+    position: relative;
 }
 .sidenav a:hover {
-    color: #f1f1f1;
+    color: rgb(233, 233, 233);
 }
 .sidenav .closebtn {
   position: absolute;
@@ -58,7 +78,14 @@ html {
   font-size: 36px;
   margin-left: 50px;
 }
+.sidenav .closebtn:hover {
+  color: rgb(184, 0, 0);
+}
+.sidenav p:hover{
+  background-color: #3b3b3b;
+}
 
+/* paragraph settings */
 .paragraph {
   padding: 10px;
 }
@@ -73,7 +100,7 @@ html {
 /* name, location, and social */
 .section-1 {
   padding-top: 40px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   text-align: left;
 }
 .section-1 p {
@@ -81,11 +108,17 @@ html {
   padding-bottom: 10px;
   text-indent: 10px;
   margin: 0;
+  color: white;
 }
 .section-1 h1 {
   font-size: 1.7rem;
   text-indent: 10px;
-  margin-bottom: 13px;
+  margin-bottom: 9px;
+}
+.section-1 h3 {
+  font-size: 1.1rem;
+  text-indent: 10px;
+  margin-bottom: 7px;
 }
 .section-1 a {
   font-size: 1.8rem;
@@ -100,7 +133,7 @@ html {
 /* Navigation bar */
 .navbar {
   overflow: hidden;
-  padding-bottom: 150px;
+  padding-bottom: 100px;
   padding-top: 10px;
 }
 .navbar a {
@@ -111,6 +144,8 @@ html {
   padding: 20px 10px;
   text-decoration: none;
 }
+
+
 /* dropdown menu */
 /* modified from https://codepen.io/jstn/pen/zuDst for the dynamic underline */
 .dropdown {

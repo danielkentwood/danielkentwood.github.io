@@ -12,9 +12,9 @@
   <body>
     <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="index.html">Home</a>
-      <a href="ds.html">Data Science</a>
-      <a href="neuro.html">Neuroscience</a>
+      <p><a href="index.html">Home</a></p>
+      <p><a href="ds.html">Data Science</a></p>
+      <p><a href="neuro.html">Neuroscience</a></p>
     </div>
 
     <div id='main'>
@@ -27,24 +27,42 @@
         <hr>
         <ul class="c-links" id="demo">
           <li class="btn--corners">
-            <a href="https://github.com/danielkentwood/SearchMoDB">The language of faith</a>
-            <p>This started off as an exploration of my Mormon roots. It is currently an app that provides N-Gram frequency search functionality for a corpus of sermons and lessons from LDS church leadership. It covers from the mid 1800s to today. I have plans to expand into other religions/traditions.</p>
+            <a href="https://github.com/danielkentwood/sugartime">SugarTime</a>
+            <p>The SugarTime package is a set of tools to model the effects of carbohydrates and 
+              insulin on blood glucose dynamics. The goal of these tools is to learn how a diabetic's 
+              blood glucose responds to food and to insulin. After it has learned this, the patient 
+              can provide the timing and amount of carbs they plan on eating, and the model will 
+              offer a best guess as to which insulin dosage will keep their blood glucose within 
+              an optimal range.</p>
+          </li>
+          <li class="btn--corners">
+            <a href="https://github.com/danielkentwood/SearchMoDB">SearchMoDB</a>
+            <p>This started off as an exploration of my Mormon roots. It is currently an app that 
+              provides N-Gram frequency search functionality for a corpus of sermons and lessons 
+              from LDS church leadership. It covers from the mid 1800s to today. I have plans to 
+              expand into other religions/traditions.</p>
           </li>
           <li class="btn--corners">
             <a href="https://github.com/danielkentwood/Countdown">Countdown</a>
-            <p>This is currently an EDA of the mortality dataset at NBER. The short-term goal is to provide a clean interface to the dataset, allowing users to input demographic features (e.g., race, education, sex, marital status, etc.), and then see when someone with those demographic features is most likely to die.</p>
+            <p>This is currently a quick EDA of the mortality dataset at NBER. The short-term goal 
+              is to provide a clean interface to the dataset, allowing users to input demographic 
+              features (e.g., race, education, sex, marital status, etc.), and then see when someone 
+              with those demographic features is most likely to die.</p>
           </li>
           <li class="btn--corners">
             <a href="https://github.com/danielkentwood/NERF">NERF: Nonlinear Estimation of Receptive Fields</a>
-            <p>This is currently a repository of code for preprocessing and analysis of behavioral and neural timeseries data. Beyond I/O, cleaning, and basic plotting functions, it specifically provides tools for inferring the spatiotemporal preferences of visually responsive neurons.</p>
+            <p>This is currently a repository of MATLAB and python code for preprocessing and analysis of behavioral 
+              and neural timeseries data. Beyond I/O, cleaning, and basic plotting functions, it 
+              specifically provides tools for inferring the spatiotemporal preferences of visually 
+              responsive neurons.</p>
           </li>
         </ul>
       </div>
     </div>
     <script>
       function openNav() {
-        document.getElementById("mySidenav").style.width = "250px";
-        document.getElementById("main").style.marginLeft = "250px";
+        document.getElementById("mySidenav").style.width = "175px";
+        // document.getElementById("main").style.marginLeft = "250px";
       }
 
       function closeNav() {
