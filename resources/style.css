@@ -30,7 +30,6 @@ canvas {
   padding-right: 0px; 
   margin-bottom: 150px;
   transform: scaleX(-1);
-
 }
 
 /* center panel settings */
@@ -55,7 +54,7 @@ canvas {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(233, 233, 233);
+    background-color: #e9e9e9;
     overflow-x: hidden;
     transition: 0.2s;
     padding-top: 60px;
@@ -69,7 +68,7 @@ canvas {
     position: relative;
 }
 .sidenav a:hover {
-    color: rgb(233, 233, 233);
+    color: #e9e9e9;
 }
 .sidenav .closebtn {
   position: absolute;
@@ -79,7 +78,7 @@ canvas {
   margin-left: 50px;
 }
 .sidenav .closebtn:hover {
-  color: rgb(184, 0, 0);
+  color: #b80000;
 }
 .sidenav p:hover{
   background-color: #3b3b3b;
