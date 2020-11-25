@@ -1,4 +1,4 @@
 # personal website 
-Static site built from scratch with HTML/CSS.
-Still under construction.
+Static site that I built from scratch with HTML/CSS.
+Always still under construction.
  
