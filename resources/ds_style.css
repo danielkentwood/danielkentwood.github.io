@@ -5,22 +5,38 @@
   position: relative;
   left: 0%;
   top: 50%;
+  margin-bottom: 150px;
+  margin-top: -15px;
+}
+
+.cvbutton {
+  padding: 10px 15px;
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 11px;
+  background-color: #ebffff;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid transparent;
+  color: #001b25;
+}
+.cvbutton:hover {
+  background-color: #000000;
+  border: 1px solid #ff7a7a;
+  color: #ff7a7a;
 }
 
 .btn--corners {
   position: relative;
   display: block;
-  margin-top: 20px;
+  margin-top: 25px;
   margin-left: -18px;
   padding: 10px;
   font-size: 18px;
   text-align: left;
   font-weight: 200;
-  background-color: #263746;
-}
-
-.btn--corners:hover {
-  background-color: #2637469f;
+  background-color: #000000;
+  transition: 0.3s;
 }
 
 .btn--corners a {
@@ -34,19 +50,35 @@
   padding: 5px 15px;
   margin: 0 2px;
   z-index: 1;
-}
-
-.btn--corners a:hover {
-  color: white;
+  transition: 0.3s;
 }
 
 .btn--corners p {
   position: relative;
-  color: #aecccc;
+  color: #b8d8d8;
   text-decoration: none;
   line-height: 1em;
   font-size: 0.9em;
   padding: 5px 15px;
   margin: 0 2px;
   z-index: 1;
+  transition: 0.3s;
+}
+
+.btn--corners:hover {
+  background-color: #e1fbfc;
+  color: #222525;
+}
+
+.btn--corners:hover p {
+  color: #222525;
+}
+
+.btn--corners:hover a {
+  color: #c90202;
+}
+
+.btn--corners:hover a:hover {
+  color: #152727;
+  transition: 0s;
 }

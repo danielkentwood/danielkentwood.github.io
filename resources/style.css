@@ -89,7 +89,7 @@ canvas {
   padding: 10px;
 }
 .paragraph a {
-  color: #A6AAA3;
+  color: #6da5a5;
   text-decoration: none;
 }
 .paragraph a:hover {
@@ -122,7 +122,7 @@ canvas {
 .section-1 a {
   font-size: 1.8rem;
   padding: 10px;
-  color: #7a7c80;
+  color: #7a7e80;
 }
 .section-1 a:hover {
   color: white;
