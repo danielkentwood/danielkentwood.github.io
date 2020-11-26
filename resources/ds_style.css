@@ -11,16 +11,16 @@
 
 .collapsible {
   background-color: #d6f5f5;
-  margin-bottom: 30px;
-  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-top: 2px;
   color: #001b25;
   cursor: pointer;
-  padding: 12px;
+  padding: 8px;
   display: inline-block;
   border: none;
   text-align: left;
   outline: none;
-  font-size: 20px;
+  font-size: 17px;
   border: 1px solid transparent;
 }
 
@@ -38,12 +38,12 @@
 }
 
 .cvbutton {
-  padding: 12px;
+  padding: 8px;
   display: inline-block;
-  font-size: 20px;
+  font-size: 17px;
   margin-left: 11px;
-  margin-top: 15px;
-  margin-bottom: 30px;
+  margin-top: 2px;
+  margin-bottom: 20px;
   background-color: #d6f5f5;
   text-align: left;
   text-decoration: none;
