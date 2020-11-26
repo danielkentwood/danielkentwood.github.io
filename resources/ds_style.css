@@ -9,13 +9,43 @@
   margin-top: -15px;
 }
 
+.collapsible {
+  background-color: #d6f5f5;
+  margin-bottom: 30px;
+  margin-top: 15px;
+  color: #001b25;
+  cursor: pointer;
+  padding: 12px;
+  display: inline-block;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  border: 1px solid transparent;
+}
+
+.active, .collapsible:hover {
+  background-color: #000000;
+  color: #ff7a7a;
+  border: 1px solid #ff7a7a;
+}
+
+.content {
+  display: none;
+  overflow: hidden;
+  background-color: #000000;
+  color: #b5b9c2;
+}
+
 .cvbutton {
-  padding: 10px 15px;
+  padding: 12px;
   display: inline-block;
   font-size: 20px;
   margin-left: 11px;
-  background-color: #ebffff;
-  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  background-color: #d6f5f5;
+  text-align: left;
   text-decoration: none;
   border: 1px solid transparent;
   color: #001b25;
@@ -55,7 +85,7 @@
 
 .btn--corners p {
   position: relative;
-  color: #b8d8d8;
+  color: #d3e4e4;
   text-decoration: none;
   line-height: 1em;
   font-size: 0.9em;
@@ -66,7 +96,7 @@
 }
 
 .btn--corners:hover {
-  background-color: #e1fbfc;
+  background-color: #d9eaeb;
   color: #222525;
 }
 

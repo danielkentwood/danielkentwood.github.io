@@ -122,7 +122,7 @@ canvas {
 .section-1 a {
   font-size: 1.8rem;
   padding: 10px;
-  color: #7a7e80;
+  color: #6da5a5;
 }
 .section-1 a:hover {
   color: white;
@@ -155,7 +155,7 @@ canvas {
   font-size: 16px;
   border: none;
   outline: none;
-  color: #9b9ea5;
+  color: #6da5a5;
   padding: 20px 10px;
   background-color: inherit;
   font-family: inherit;
@@ -176,7 +176,7 @@ canvas {
 }
 .dropdown-content a {
   float: none;
-  color: #9b9ea5;
+  color: #6da5a5;
   padding: 20px 10px 0px 0px;
   text-decoration: none;
   display: block;
