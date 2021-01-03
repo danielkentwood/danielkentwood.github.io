@@ -37,6 +37,14 @@
   color: #b5b9c2;
 }
 
+.content a {
+  color: #6da5a5;
+  text-decoration: none;
+}
+.content a:hover {
+  color: white;
+}
+
 .cvbutton {
   padding: 8px;
   display: inline-block;
