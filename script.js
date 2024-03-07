@@ -78,6 +78,7 @@ function step6 () {
 
 function setup () {
   const canvas = createCanvas(350,350);
+  canvas.parent('canvas');
   ctx = canvas.drawingContext;
   
   pixelDensity(1);
