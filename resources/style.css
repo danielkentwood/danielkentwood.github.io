@@ -19,7 +19,7 @@ html {
 }
 
 /* moving dot brain settings */
-.canvas {
+canvas {
 /*   margin: auto;
   position: relative;
   display: flex; */
@@ -222,11 +222,11 @@ html {
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 10px;
-  row-gap: 20px;
+  row-gap: 10px;
 }
 
 .grid-item {
-  padding: 20px;
+  padding: 10px;
   text-align: center;
 }
 
