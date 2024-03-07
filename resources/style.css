@@ -222,7 +222,7 @@ canvas {
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 10px;
-  row-gap: 40px;
+  row-gap: 20px;
 }
 
 .grid-item {
