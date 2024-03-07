@@ -96,4 +96,10 @@ function setup () {
 
 function draw () {
   window['step6']();
+
+  // Draw a white border around the image
+  noFill(); // This ensures that the rectangle is not filled
+  stroke(255, 255, 255); // This sets the color of the border to white
+  strokeWeight(3); // This sets the width of the border. Change it to the width you want.
+  rect(0, 0, width, height); // This draws the border
 }
