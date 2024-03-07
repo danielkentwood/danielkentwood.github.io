@@ -8,7 +8,6 @@
 </head>
 <body>
   <!-- partial:index.partial.html -->
-  <body>
     <!-- <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <p><a href="index.html">Home</a></p>
@@ -16,59 +15,67 @@
       <p><a href="neuro.html">Neuroscience</a></p>
     </div> -->
 
-    <div id='main'>
-      <!-- <span style="position:fixed;padding:40px;font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span> -->
-      
-      <!-- <div id="canvas">
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.min.js'></script>
-        <script  src="./script.js"></script>
-      </div> -->
-
-      <div class="center-text">
-        <div class="section-1">
-          <h1>Daniel Wood</h1>
-          <p>Data Scientist <span>&#183;</span> Neuroscientist</p>
-          <div style="margin-top: 5px" , id="social-buttons">
-            <a href="https://twitter.com/danielkentwood"><i class="fa fa-twitter fa-1x"></i></a>
-            <a href="https://github.com/danielkentwood"><i class="fa fa-github fa-1x"></i></a>
-            <a href="https://www.linkedin.com/in/danielkentwood/"><i class="fa fa-linkedin fa-1x"></i></a>
-            <a href="https://codepen.io/danielkentwood"><i class="fa fa-codepen fa-1x"></i></a>
-            <a href="mailto: danielkentwood@gmail.com"><i class="fa fa-envelope fa-1x"></i></a>
-          </div>
-        </div>
-        <hr>
-        <div class="paragraph">
-          <p>I'm a data scientist (currently with Aetna/CVS) with a focus on experimentation and machine learning. Domain expertise in healthcare, 
-            especially all things related to the brain: my education is in neuropsychology, electrophysiology, and 
-            computational neuroscience, and I have professional experience in human factors consulting.
-            <br><br>
-            <h4>Primary interests:</h4>
-            <ul>
-              <li>digital health</li>
-              <li>time series problems</li>
-              <li>NLP</li>
-              <li>causal inference</li>
-              <li>graph/network analysis</li>
-            </ul>
-            
-
-          </p>
-        </div>
-        <hr>
-        <!-- <div class="navbar">
-          <div class="dropdown">
-            <button id="drop-btn" , class="dropbtn">Portfolios
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div id="drop-content" , class="dropdown-content">
-              <a href="ds.html">Data Science</a>
-              <a href="neuro.html">Neuroscience</a>
-              <a href="#">Art and Music</a>
+  <div class="grid-container">
+    <div class="grid-item"></div>
+    <div class="grid-item">
+        <div id='main'>
+          <!-- <span style="position:fixed;padding:40px;font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span> -->
+          
+          <!-- <div id="canvas">
+            <script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.min.js'></script>
+            <script  src="./script.js"></script>
+          </div> -->
+    
+          <div class="center-text">
+            <div class="section-1">
+              <h1>Daniel Wood</h1>
+              <p>Data Scientist <span>&#183;</span> Neuroscientist</p>
+              <div style="margin-top: 5px" , id="social-buttons">
+                <a href="https://twitter.com/danielkentwood"><i class="fa fa-twitter fa-1x"></i></a>
+                <a href="https://github.com/danielkentwood"><i class="fa fa-github fa-1x"></i></a>
+                <a href="https://www.linkedin.com/in/danielkentwood/"><i class="fa fa-linkedin fa-1x"></i></a>
+                <a href="https://codepen.io/danielkentwood"><i class="fa fa-codepen fa-1x"></i></a>
+                <a href="mailto: danielkentwood@gmail.com"><i class="fa fa-envelope fa-1x"></i></a>
+              </div>
             </div>
+            <hr>
+            <div class="paragraph">
+              <p>I'm a data scientist (currently with Aetna/CVS) with a focus on experimentation and machine learning. Domain expertise in healthcare, 
+                especially all things related to the brain: my education is in neuropsychology, electrophysiology, and 
+                computational neuroscience, and I have professional experience in human factors consulting.
+                <br><br>
+                <h4>Primary interests:</h4>
+                <ul>
+                  <li>digital health</li>
+                  <li>time series problems</li>
+                  <li>NLP</li>
+                  <li>causal inference</li>
+                  <li>graph/network analysis</li>
+                </ul>
+              </p>
+            </div>
+            <hr>
+            <!-- <div class="navbar">
+              <div class="dropdown">
+                <button id="drop-btn" , class="dropbtn">Portfolios
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div id="drop-content" , class="dropdown-content">
+                  <a href="ds.html">Data Science</a>
+                  <a href="neuro.html">Neuroscience</a>
+                  <a href="#">Art and Music</a>
+                </div>
+              </div>
+            </div> -->
           </div>
-        </div> -->
-      </div>
+        </div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item">
+      <div id="canvas"></div>
     </div>
+    <div class="grid-item"></div>
+      
     <!-- <script>
       function openNav() {
         document.getElementById("mySidenav").style.width = "175px";
@@ -80,9 +87,8 @@
         document.getElementById("main").style.marginLeft= "0";
       }
     </script> -->
-
-  </body>
-  <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.min.js'></script>
+    <script src="./script.js"></script>
 
 </body>
 </html>
