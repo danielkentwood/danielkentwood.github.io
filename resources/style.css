@@ -20,15 +20,15 @@ html {
 
 /* moving dot brain settings */
 canvas {
-  margin: auto;
+/*   margin: auto;
   position: relative;
-  display: flex;
+  display: flex; */
   text-align: left;
   background: #050505;
 /*   padding-top: -40px; */
 /*   padding-left: -50px; */
-/*   padding-right: 0px; 
-  margin-bottom: 150px; */
+/*   padding-right: 0px;  */
+/*   margin-bottom: 150px; */
   transform: scaleX(-1);
 }
 
